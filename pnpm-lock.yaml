@@ -7,6 +7,7 @@ specifiers:
   '@tsconfig/svelte': ^3.0.0
   svelte: ^3.49.0
   svelte-check: ^2.8.0
+  svelte-materialify: ^0.3.11
   svelte-preprocess: ^4.10.7
   tslib: ^2.4.0
   typescript: ^4.6.4
@@ -19,6 +20,7 @@ devDependencies:
   '@tsconfig/svelte': 3.0.0
   svelte: 3.49.0
   svelte-check: 2.8.0_svelte@3.49.0
+  svelte-materialify: 0.3.11_svelte@3.49.0
   svelte-preprocess: 4.10.7_uslzfc62di2n2otc2tvfklnwji
   tslib: 2.4.0
   typescript: 4.7.4
@@ -873,6 +875,14 @@ packages:
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
     peerDependencies:
       svelte: '>=3.19.0'
+    dependencies:
+      svelte: 3.49.0
+    dev: true
+
+  /svelte-materialify/0.3.11_svelte@3.49.0:
+    resolution: {integrity: sha512-MLtZtdSOHditOdJOYqlB8s7NxIFRbYKXJzij5s9gz5WVbJFVEqdX2TqOleg4wYeMOujtOCm+/x3RP5YGyzRxIQ==}
+    peerDependencies:
+      svelte: '>=3.29.4'
     dependencies:
       svelte: 3.49.0
     dev: true
